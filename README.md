@@ -1,0 +1,1 @@
+# trufflehog3-secret-check
