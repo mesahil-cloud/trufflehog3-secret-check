@@ -2,7 +2,7 @@
 
 set -e # Abort script at first error
 
-args="--regex --entropy=False --max_depth=1" # Default trufflehog options
+args="--no-history --no-entropy" # Default trufflehog options
 
 if [ -n "${INPUT_SCANARGUMENTS}" ]; then
   args="${INPUT_SCANARGUMENTS}" # Overwrite if new options string is provided
@@ -13,4 +13,4 @@ fi
 # done before our action runs, we'll have access to the repository.
 githubRepo="file://$(pwd)" # Default target repository
 query="$args $githubRepo" # Build args query with repository url
-trufflehog $query
+trufflehog3 $query
