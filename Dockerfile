@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM python:3.7-slim
 
 LABEL name="trufflehog3-secret-check"
 LABEL version="1.0.0"
@@ -11,7 +11,7 @@ LABEL "com.github.actions.description"="Scan repository for secrets with basic t
 LABEL "com.github.actions.icon"="shield"
 LABEL "com.github.actions.color"="yellow"
 
-RUN pip install gitdb2==3.0.0 truffleHog3==2.0.4
+RUN pip install gitdb2==4.0.2 truffleHog3==2.0.5
 RUN apk --update add git less openssh && \
   rm -rf /var/lib/apt/lists/* && \
   rm /var/cache/apk/*

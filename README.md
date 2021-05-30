@@ -50,7 +50,7 @@ steps:
 - name: trufflehog3-secret-check
   uses: mesahil-cloud/trufflehog3-secret-check@main
   with:
-    scanArguments: "--regex --entropy=False --max_depth=5 --rules /regexes.json" # Add custom options here*
+    scanArguments: "-no-entropy --no-history --rules /regexes.json" # Add custom options here*
 
 ```
 

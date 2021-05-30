@@ -13,4 +13,4 @@ fi
 # done before our action runs, we'll have access to the repository.
 githubRepo="file://$(pwd)" # Default target repository
 query="$args $githubRepo" # Build args query with repository url
-trufflehog $query
+trufflehog3 $query
