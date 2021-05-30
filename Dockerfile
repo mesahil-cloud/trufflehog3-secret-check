@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.7-alpine
 
 LABEL name="trufflehog3-secret-check"
 LABEL version="1.0.0"
