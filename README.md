@@ -1,5 +1,5 @@
 
-# trufflehog33  Actions Scan :pig_nose::key:
+# trufflehog3  Actions Scan :pig_nose::key:
 
 Scan recent commits in repository for secrets with basic [trufflehog3](https://github.com/dxa4481/trufflehog3) defaults in place for easy setup.
 
