@@ -110,7 +110,4 @@ Custom regexes can be added with the following flag --rules /path/to/rules.json.
 **Hope this could help you find your exposed secret in Git repositories before the hackers do 🤞**
 
 ----
-## Join The Slack
-Have questions? Suggestions? Jump in slack and hang out with us.
-#### Channel #Trufflehog
-https://join.slack.com/share/zt-qeav9eed-FavYtqvepKsrt0fh_hE0Xw
+
