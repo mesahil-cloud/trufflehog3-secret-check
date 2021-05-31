@@ -3,7 +3,7 @@
 
 [Trufflehog3](https://github.com/feeltheajf/Trufflehog3) is an enhanced version of [TruffleHog](https://github.com/trufflesecurity/truffleHog) scanner.
 
-It Searches through repository for secret. Trufflehog3 is an open-source tool written in Python that searches through git 
+It searches through repository for secret. Trufflehog3 is an open-source tool written in Python that searches through git 
 commit history for credentials/secrets that are accidentally committed. 
 trufflehog3 can search for secrets in git repository as well as local directory on your machine.
 
@@ -15,7 +15,7 @@ This workflow is intended as a Continuous Integration secret scan in a repositor
 
 - Trufflehog3 allows for both regex based and high entropy based flagging.
 
-- We can provide custom regexes to suit our needs accordingly.
+- Trufflehog3 support custom regexes check using rules flag.
 - Trufflehog3 outputs its results to the terminal. The potential secrets are coloured in bright yellow using ANSI escape codes.
 We can redirect output to file in different formats: text, JSON, YAML, HTML.
 
